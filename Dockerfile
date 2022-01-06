@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/java-docker.jar java-docker.jar
-ENTRYPOINT ["java", "-jar","java-docker.jar"]
+ADD target/demo-docker.jar demo-docker.jar
+ENTRYPOINT ["java", "-jar","demo-docker.jar"]
 EXPOSE 8080
